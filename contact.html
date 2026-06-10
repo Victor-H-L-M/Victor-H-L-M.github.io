@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO!</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/a0729128093_10.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="hal" href="./index.html">Home</a>
+            <a class="ha" href="./about.html">Sobre Mim</a>
+            <a class="ha" href="./curriculum.html">Currículo</a>
+            <a class="ha" href="#">Contato</a>
+            <a class="har" href="./receitas.html">Receitas Favoritas</a>
+        </nav>
+                    <!--DARK MODE AND FONT SIZE-->
+        <div class="acs">
+            <button class="hb" onclick="modoEscuro()">Light/Dark mode</button>
+            <input class="hs" type="range" name="Fonte" id="fontSlider" min="50" max="140" value="95">
+        </div>
+    </header>
+
+    <h1>Gosta do meu estilo? Torne ele <span class="pecado">SEU</span>.</h1>
+    <p>Eu até posso usar cores por você.</p>
+
+
+    <form>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="titulo">Titulo:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br>
+
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+</html>

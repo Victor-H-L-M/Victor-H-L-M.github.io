@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosso blog</title>
+    <title>BLOG!</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/a0729128093_10.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Em construção</h1>
+    <header>
+        <nav>
+            <a class="hal" href="#">Home</a>
+            <a class="ha" href="./about.html">Sobre Mim</a>
+            <a class="ha" href="./curriculum.html">Currículo</a>
+            <a class="ha" href="./contact.html">Contato</a>
+            <a class="har" href="./receitas.html">Receitas Favoritas</a>
+        </nav>
+                    <!--DARK MODE AND FONT SIZE-->
+        <div class="acs">
+            <button class="hb" onclick="modoEscuro()">Light/Dark mode</button>
+            <input class="hs" type="range" name="Fonte" id="fontSlider" min="50" max="140" value="95">
+        </div>
+    </header>
+
+    <h1>Bem Vindo!</h1>
+
+    <p>Este é meu blog, aqui você vai poder encontar sobre meus últimos ou futuros projetos, como me contatar para uma parceria e curisidades sobre minha vida que são mais 
+    desinteresantes do que a paleta de cor deste site.</p>
+
+        <br>
+        <p class="center">///////////////////</p>
+        <br>
+
+    <article class="feed">
+        <img class="feedimg" src="./assets/byung-chul-han-libros-1774607454.jpg">
+
+        <span class="feedtxt">
+            <h2>Sociedade da transparência e IA</h2>
+            <small>10/06/2026</small>
+            <p>O livro do filósofo sul-coreano Byung-Chul Han argumenta que a transparência se tornou um imperativo moral e social,
+                e que isso está levando a uma erosão da privacidade e da individualidade. Com a nova onda de IA's e empresas como Palantir esse problema só se agrava,
+                o que vocês acham?
+            </p>
+        </span>
+    </article>
+
+    <br>
+
+    <article class="feed">
+        <img class="feedimg" src="./assets/Nswpsz-203536620.jpg">
+
+        <span class="feedtxt">
+            <h2>O que vocês acham de RPG's de terminal?</h2>
+            <small>15/05/2026</small>
+            <p>Estive pensando em criar um com python e depois integrar uma Local LLM para a parte 
+            da história, o que vocês acham?
+            </p>
+        </span>
+    </article>
+
+    <br>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
